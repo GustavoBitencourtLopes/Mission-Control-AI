@@ -30,7 +30,10 @@ dados_da_missao = [
     [35, 49, 43, 87, 61],
 
     # CICLO 5
-    [41, 22, 18, 76, 33]
+    [41, 22, 18, 76, 33],
+
+    # CICLO 6
+    [44, 18, 12, 72, 28]
 
 ]
 
@@ -220,6 +223,8 @@ risco_estabilidade = 0
 
 quantidade_ciclos = len(dados_da_missao)
 
+primeiro_risco = None
+
 
 # ============================================================
 # LOOP PRINCIPAL DA MISSÃO
@@ -265,6 +270,9 @@ for ciclo in dados_da_missao:
         pontos_oxigenio +
         pontos_estabilidade
     )
+
+    if contador_ciclo == 1:
+        primeiro_risco = pontuacao_total
 
     # ========================================================
     # RECOMENDAÇÃO
@@ -364,7 +372,6 @@ risco_medio = soma_risco_total / quantidade_ciclos
 # TENDÊNCIA DA MISSÃO
 # ============================================================
 
-primeiro_risco = 0
 ultimo_risco = pontuacao_total
 
 if ultimo_risco > primeiro_risco:
@@ -449,4 +456,4 @@ print(f"➡️ {area_mais_afetada}")
 print("\n")
 print("✅ Encerrando sistema Mission Control AI...")
 print("=" * 60)
-salva
+
