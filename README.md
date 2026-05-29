@@ -109,6 +109,6 @@ Sirius Voyage
 
 Este projeto permitiu praticar conceitos fundamentais de programação em Python, incluindo estruturas de dados, lógica de programação, modularização através de funções e análise automatizada de informações.
 
-👨‍💻 Autor
+ Autores
 
-Gustavo Bitencourt
+Gustavo Bitencourt RM 568885 e Daniel Vieira RM 573326
