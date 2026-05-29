@@ -449,4 +449,4 @@ print(f"➡️ {area_mais_afetada}")
 print("\n")
 print("✅ Encerrando sistema Mission Control AI...")
 print("=" * 60)
-
+salva
