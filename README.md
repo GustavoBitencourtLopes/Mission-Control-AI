@@ -10,10 +10,6 @@ O projeto simula o acompanhamento de indicadores críticos de uma missão espaci
 
 Desenvolver um sistema capaz de monitorar diferentes áreas de uma missão espacial e identificar situações de risco através da análise dos dados coletados em cada ciclo operacional.
 
-## 📷 Exemplo de Execução
-
-![Mission Control AI](resultado.png)
-
 ---
 
 # ⚙️ Funcionalidades
@@ -34,7 +30,7 @@ Desenvolver um sistema capaz de monitorar diferentes áreas de uma missão espac
 
 ---
 
-# 🧠 Conceitos de Python Utilizados
+#  Conceitos de Python Utilizados
 
 Durante o desenvolvimento foram utilizados:
 
@@ -129,19 +125,19 @@ Exemplo:
 
 ---
 
-# 👨‍🚀 Equipe
+#  Equipe
 
 **Equipe Apollo**
 
 ---
 
-# 🛰️ Missão Simulada
+#  Missão Simulada
 
 **Sirius Voyage**
 
 ---
 
-# 📚 Aprendizados
+#  Aprendizados
 
 Este projeto permitiu praticar conceitos fundamentais de programação em Python, incluindo:
 
@@ -162,6 +158,4 @@ Além disso, o projeto proporcionou uma visão prática de como sistemas de moni
 
 **Gustavo Bitencourt: RM 568885** e **Daniel Vieira: RM 573326**
 
-Aluno de Ciência da Computação – FIAP
 
-Projeto acadêmico desenvolvido para praticar conceitos fundamentais de programação utilizando Python.
